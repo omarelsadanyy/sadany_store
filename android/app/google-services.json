@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "335546961425",
+    "project_id": "sadany-store-db63c",
+    "storage_bucket": "sadany-store-db63c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335546961425:android:556f8015beb66149ecabb0",
+        "android_client_info": {
+          "package_name": "com.example.sadany_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYTFnT0Dmc4dhRRcLE5K7L0UFMnc4jeHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
