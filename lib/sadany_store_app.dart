@@ -17,8 +17,8 @@ class SadanyStoreApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Sadany Store'),
         ),
-        body: Center(
-          child: const Text('Welcome to Sadany Store!'),
+        body: const Center(
+          child: Text('Welcome to Sadany Store!'),
         ),
       ),
       
