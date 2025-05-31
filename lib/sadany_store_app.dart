@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:sadany_store/core/app/env.variables.dart';
 
 class SadanyStoreApp extends StatelessWidget {
   const SadanyStoreApp({super.key});
@@ -7,7 +8,7 @@ class SadanyStoreApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: EnvVarible.instance.debugMode,
       title: 'Sadany Store',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -17,8 +18,8 @@ class SadanyStoreApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Sadany Store'),
         ),
-        body: Center(
-          child: const Text('Welcome to Sadany Store!'),
+        body: const Center(
+          child: Text('Welcome to Sadany Store!'),
         ),
       ),
       
